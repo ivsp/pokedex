@@ -1,8 +1,13 @@
+import React from "react";
+import PokemonCard from "../../components/pokemon-card/pokemon-card";
+import Header from "../../shared/components/header/header";
+
 function MainPage() {
   return (
-    <div>
-      <h1>MAIN PAGE component</h1>
-    </div>
+    <React.Fragment>
+      <Header />
+      <PokemonCard />
+    </React.Fragment>
   );
 }
 
